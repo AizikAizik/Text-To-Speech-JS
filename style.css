@@ -1,0 +1,53 @@
+body{
+    background: black;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding-top: 50%;
+}
+
+.container{
+   padding: 20px;
+}
+
+.s-psw{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    padding: 6px 4px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #007FF4;
+}
+
+.s-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 14px 24px;
+    background: #007FF4;
+    box-shadow: 0px 4px 12px rgba(43, 54, 65, 0.1);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: 250ms ease;
+}
+
+.s-btn:hover{
+    background: #2694fa;
+    box-shadow: 0px 4px 12px rgba(47, 155, 255, 0.1);
+}
+
+.s-btn:active{
+    background: #0073de;
+    transform: scale(0.98);
+}
